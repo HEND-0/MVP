@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 23 25">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" stroke="#000" stroke-width="2" d="M1 1H1919V1079H1z" transform="translate(-32 -320)"/>
+        <path fill="#FFF" stroke="#000" stroke-width="2" d="M1 1H85V1079H1z" transform="translate(-32 -320)"/>
+        <g>
+            <g stroke="#000" stroke-width="1.1" transform="translate(-32 -320) translate(32 321) translate(12.65 13.2)">
+                <circle cx="4.785" cy="4.51" r="4.51"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.785 1.98L4.785 6.985M2.31 4.51L7.315 4.51"/>
+            </g>
+            <path stroke="#000" stroke-width="1.1" d="M15.84 4.895L3.96 4.895M5.94 11.825L3.96 11.825" transform="translate(-32 -320) translate(32 321)"/>
+            <path fill="#000" fill-rule="nonzero" d="M15.84 11.935v-.605H7.425v1.1h7.205c.385-.22.77-.385 1.21-.495zM12.54 14.245H7.425v1.1h4.51c.165-.385.33-.77.605-1.1zM11.44 17.71v-.495H7.425v1.1h4.015v-.605z" transform="translate(-32 -320) translate(32 321)"/>
+            <path stroke="#000" stroke-width="1.1" d="M5.94 14.795L3.96 14.795M5.94 17.765L3.96 17.765" transform="translate(-32 -320) translate(32 321)"/>
+            <path fill="#000" fill-rule="nonzero" d="M13.42 22.165H1.595V1.1h16.72v10.67c.385.055.77.165 1.1.275V0H.495v23.265H15.18c-.66-.275-1.265-.66-1.76-1.1z" transform="translate(-32 -320) translate(32 321)"/>
+        </g>
+    </g>
+</svg>

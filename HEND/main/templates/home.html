@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  <link rel="stylesheet" href="{% static 'css/panel.css' %}">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" /> -->
+</head>
+<body>
+    <div class="container">
+      <div class="nav_bar">
+        <div class="hamburg_bar">
+          <div class="hamburg_ele hamburg_ele1"></div>
+          <div class="hamburg_ele hamburg_ele2"></div>
+          <div class="hamburg_ele hamburg_ele3"></div>
+        </div>
+        <div class="main_logo"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></div>
+        <ul class="menu_bar">
+          <li><img src="{% static 'img/home.svg' %}" alt="home"></li>
+          <li><img src="{% static 'img/create-order.svg' %}" alt="order"></li>
+          <li><img src="{% static 'img/shopping-bag.svg' %}" alt="shopping"></li>
+          <li><img src="{% static  'img/mypage.svg' %}" alt="mypage"></li>
+        </ul>
+        <span class="insta_icon"> <img src="{% static 'img/instagram.svg' %}" alt="instagram"></span>
+      </div>
+      
+      <div class="main">
+        <div class="panel_bar">
+          <div class="panelBtn1 panelBtn"></div>
+          <div class="panelBtn2 panelBtn"></div>
+          <div class="panelBtn3 panelBtn"></div>
+        </div>
+        <div class="content_back1">
+          <button class="quick_button">바로 리페어 받기</button>
+        </div>
+        <div class="content_back2"><span class="item_disc"></span></div>
+        <div class="content_back3"><span class="item_disc"></span></div>
+      </div>
+    </div>
+    
+    <script src="{% static 'js/scrollto.js' %}"></script>
+  
+</body>
+</html>
