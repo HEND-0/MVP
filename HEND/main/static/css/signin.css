@@ -1,0 +1,31 @@
+
+.signin_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.signin_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail_img{
+  background-color: antiquewhite;
+}
+input{
+  width: 380px;
+  height: 60px;
+  padding: 10px;
+}
+.signin_btn{
+  width: 380px;
+  height: 60px;
+  text-align: left;
+  margin-top: 80px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
