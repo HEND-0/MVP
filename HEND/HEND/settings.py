@@ -55,7 +55,7 @@ ROOT_URLCONF = 'HEND.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['HEND/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

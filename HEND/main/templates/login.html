@@ -1,0 +1,34 @@
+{% extends 'sidebar.html' %}
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  {% block content %}
+    <div class="login_container">
+        
+        <form action="" class="login_form">
+          <div class="main_logo"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></div>
+          <input type="text"" class="email"value="email">
+          <div class="password">
+            <input type="password" class="password" value="password">
+            <!-- <span>forgot?</span> -->
+          </div>
+          
+
+          <div class="login_status"><input type="checkbox" class="checkbox"><span>로그인 상태 유지</span></div>
+          <div class="login_btn_container">
+            <div class="logform_login_btn">LOGIN</div>
+            <div class="logform_signin_btn">SIGN IN</div>
+          </div>
+        </form>
+      
+      <div class="detail_img"></div>
+    </div>
+  {% endblock %}
+</body>
+</html>
