@@ -1,0 +1,71 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.main_logo{
+  position: absolute;
+  top: 115px;
+  width: 37px;
+  height: 48px;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right:1px solid rgb(194, 186, 186);
+  width: 230px;
+  height: 100vh;
+  /* left: -50px; */
+  position: fixed;
+  background-color: white;
+  transition: 0.5s;
+}
+.side_content{
+  display: flex;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  justify-content: space-evenly;
+  /* align-items: flex-end; */
+}
+.hamburg_bar{
+  position: absolute;
+  top: 34px;
+  left: 30px;
+}
+.hamburg_ele{
+  width: 25px;
+  height: 1px;
+  margin-bottom: 6px;
+  background-color: black;
+}
+.quick_menu{
+  list-style-type: none;
+  margin-bottom: 500px;
+}
+.quick_menu li{
+  margin-bottom: 15px;
+  width: 30px;
+  height: 26px;
+  border-bottom: 1px solid  transparent;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.side_categories{
+  margin-bottom: 300px;
+}
+.side_categories li{
+  margin-bottom: 20px;
+}
+.menu_bar li:hover{
+  border-bottom: 2px solid black;
+}
+.insta_icon{
+  /* bottom: 30px; */
+    /* position: absolute; */
+    bottom: 20px;
+    left: 30px;
+}
+li{
+  list-style-type: none;
+}
