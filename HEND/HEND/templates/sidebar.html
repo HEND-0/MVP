@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{% static 'css/signin.css' %}">
   <link rel="stylesheet" href="{% static 'css/panel.css' %}">
   <link rel="stylesheet" href="{% static 'css/loginn.css' %}">
+  <link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
 </head>
 
 <body>
@@ -20,20 +21,39 @@
         <div class="hamburg_ele hamburg_ele2"></div>
         <div class="hamburg_ele hamburg_ele3"></div>
       </div>
-
+      
       <div class="main_logo"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></div>
-      <ul class="menu_bar">
-        <li><img src="{% static 'img/home.svg' %}" alt="home"></li>
-        <li><img src="{% static 'img/create-order.svg' %}" alt="order"></li>
-        <li><img src="{% static 'img/shopping-bag.svg' %}" alt="shopping"></li>
-        <li><img src="{% static  'img/mypage.svg' %}" alt="mypage"></li>
-      </ul>
-      <span class="insta_icon"> <img src="{% static 'img/instagram.svg' %}" alt="instagram"></span>
-    </div>
+      <div class="side_content">
+        <div class="categories">
+          <ul class="side_categories">
+            <li>HOME</li>
+            <li>REPAIR</li>
+            <li>SHOP</li>
+            <li>MY PAGE</li>
+          </ul>
+          <ul class="side_sign">
+            <li class="login">LOGIN</li>
+            <li class="signin">SIGNIN</li>
+          </ul>
+        </div>
+        <div class="quick">
+          <ul class="quick_menu">
+            <li><img src="{% static 'img/home.svg' %}" alt="home"></li>
+            <li><img src="{% static 'img/create-order.svg' %}" alt="order"></li>
+            <li><img src="{% static 'img/shopping-bag.svg' %}" alt="shopping"></li>
+            <li><img src="{% static  'img/mypage.svg' %}" alt="mypage"></li>
+          </ul>
+          <span class="insta_icon"> <img src="{% static 'img/instagram.svg' %}" alt="instagram"></span>
+        </div>
+        </div>
+      </div>
+      
+      
 
     {% block content %}
     {% endblock %}
-
+  <script src="{% static 'js/hamburg.js' %}"></script>
+  
 </body>
 
 </html>

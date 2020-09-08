@@ -14,4 +14,3 @@ panelBtn2.addEventListener("click", () => {
 panelBtn3.addEventListener("click", () => {
   part3.scrollIntoView({ behavior: "smooth" });
 });
-console.log("sdsd");
