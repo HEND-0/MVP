@@ -12,10 +12,11 @@
     <div class="login_container">
         
         <form action="" class="login_form">
+          {% csrf_token %}
           <div class="main_logo"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></div>
-          <input type="text"" class="email"value="email">
+          <input type="text"" class="email" value="email" name="email">
           <div class="password">
-            <input type="password" class="password" value="password">
+            <input type="password" class="password" value="password" name="password">
             <!-- <span>forgot?</span> -->
           </div>
           
