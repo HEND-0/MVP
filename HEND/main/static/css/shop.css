@@ -1,0 +1,14 @@
+
+.shop_main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.shop_header{
+  flex: 1 1 80px;
+  background-color: aquamarine;
+}
+.shop_container{
+  flex: 1 1 1000px;
+  background-color: red;
+}
