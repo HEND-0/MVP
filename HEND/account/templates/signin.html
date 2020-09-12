@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sign in</title>
   
 </head>
 <body>
@@ -16,13 +16,14 @@
         
       </div>
       
-      <form action "" class="signin_form">
+      <form method="POST" class="signin_form">
+          {% csrf_token %}
           <div class="main_logo"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></div>
-          <input type="text" class="user_name" placeholder="username*">
-          <input type="email" class="email" placeholder="email*">
-          <input type="password" class="password" placeholder="password*">
-          <input type="password" class="confirm_password" placeholder="password*">
-          <input type="text" class="phonenumber" placeholder="phone*">
+          <input type="text" class="user_name" placeholder="username*" name="user_name">
+          <input type="email" class="email" placeholder="email*" name="email">
+          <input type="password" class="password" placeholder="password*" name="password1">
+          <input type="password" class="confirm_password" placeholder="password*" name="password2">
+          <input type="text" class="phonenumber" placeholder="phone number*" name="phone_num">
           <input type="submit" class="signin_btn" value="Sign in">
     
       </form>
