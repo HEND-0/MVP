@@ -14,6 +14,4 @@ hamburg_bar.addEventListener("click", ()=>{
     categories.style.display= 'none';
   }
 })
-hamburg_bar.addEventListener("click", ()=>{
 
-})

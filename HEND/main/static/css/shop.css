@@ -1,14 +1,44 @@
 
 .shop_main{
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   height: 100vh;
 }
 .shop_header{
   flex: 1 1 80px;
-  background-color: aquamarine;
+  padding-left: 130px;
+  padding-top: 30px;
 }
 .shop_container{
   flex: 1 1 1000px;
-  background-color: red;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.shop_item1{
+  width: 50%;
+  height: 50%;
+  background-image:  url('/static/img/04_1.png');
+  background-size: cover;
+}
+.shop_item2{
+  width: 50%;
+  height: 50%;
+  background-image:  url('/static/img/04_2.png');
+  background-size: cover;
+}
+.shop_item3{
+  width: 50%;
+  height: 50%;
+  background-image:  url('/static/img/04_3.png');
+  background-size: cover;
+}
+.shop_item4{
+  width: 50%;
+  height: 50%;
+  background-image:  url('/static/img/04_4.png');
+  background-size: cover;
+}
+a{
+  width: 50%;
 }
