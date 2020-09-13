@@ -8,9 +8,10 @@
   <title>HEND</title>
   <link rel="stylesheet" href="{% static 'css/home.css' %}">
   <link rel="stylesheet" href="{% static 'css/signin.css' %}">
-  <link rel="stylesheet" href="{% static 'css/panel.css' %}">
   <link rel="stylesheet" href="{% static 'css/loginn.css' %}">
   <link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
+  <link rel="stylesheet" href="{% static 'css/panel.css' %}">
+  <link rel="stylesheet" href="{% static 'css/shop.css' %}">
 </head>
 
 <body>
@@ -21,27 +22,28 @@
         <div class="hamburg_ele hamburg_ele2"></div>
         <div class="hamburg_ele hamburg_ele3"></div>
       </div>
-      
-      <div class="main_logo"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></div>
+      <!-- 140000 -->
+      <div class="main_logo"><a href="{% url 'home' %}"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></a></div>
       <div class="side_content">
         <div class="categories">
           <ul class="side_categories">
-            <li>HOME</li>
+            <li><a href="{% url 'home' %}">HOME</a></li>
             <li>REPAIR</li>
             <li>SHOP</li>
             <li>MY PAGE</li>
           </ul>
           <ul class="side_sign">
-            <li class="login">LOGIN</li>
-            <li class="signin">SIGNIN</li>
+
+            <li class="login"><a href="{% url 'login' %}">LOGIN</a></li>
+            <li class="signin"><a href="{% url 'signin' %}">SIGNIN</a></li>
           </ul>
         </div>
         <div class="quick">
           <ul class="quick_menu">
-            <li><img src="{% static 'img/home.svg' %}" alt="home"></li>
-            <li><img src="{% static 'img/create-order.svg' %}" alt="order"></li>
-            <li><img src="{% static 'img/shopping-bag.svg' %}" alt="shopping"></li>
-            <li><img src="{% static  'img/mypage.svg' %}" alt="mypage"></li>
+            <li><a href="{% url 'home' %}"><img src="{% static 'img/home.svg' %}" alt="home"></a></li>
+            <li><img src="{% static 'img/create-order.svg' %}" alt="order"></a></li>
+            <li><a href="{% url 'shop' %}"><img src="{% static 'img/shopping-bag.svg' %}" alt="shop"></a></li>
+            <li><a href=""><img src="{% static  'img/mypage.svg' %}" alt="mypage"></a></li>
           </ul>
           <span class="insta_icon"> <img src="{% static 'img/instagram.svg' %}" alt="instagram"></span>
         </div>
