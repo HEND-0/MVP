@@ -40,10 +40,10 @@
         </div>
         <div class="quick">
           <ul class="quick_menu">
-            <li><a href="{% url 'home' %}"><img src="{% static 'img/home.svg' %}" alt="home"></a></li>
-            <li><img src="{% static 'img/create-order.svg' %}" alt="order"></a></li>
-            <li><a href="{% url 'shop' %}"><img src="{% static 'img/shopping-bag.svg' %}" alt="shop"></a></li>
-            <li><a href=""><img src="{% static  'img/mypage.svg' %}" alt="mypage"></a></li>
+            <li class="quick_home"><a href="{% url 'home' %}"><img src="{% static 'img/home.svg' %}" alt="home"></a></li>
+            <li class="quick_order"><a href=""><img src="{% static 'img/create-order.svg' %}" alt="order"></a></li>
+            <li class="quick_shop"><a href="{% url 'shop' %}"><img src="{% static 'img/shopping-bag.svg' %}" alt="shop"></a></li>
+            <li class="quick_mypage"><a href=""><img src="{% static  'img/mypage.svg' %}" alt="mypage"></a></li>
           </ul>
           <span class="insta_icon"> <img src="{% static 'img/instagram.svg' %}" alt="instagram"></span>
         </div>
