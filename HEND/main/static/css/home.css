@@ -23,9 +23,12 @@
 }
 .quick_button{
   position: absolute;
+  font-size: 25px;
+  padding-left: 10px;
+  text-align: left;
   top: 550px;
   right: 137px;
-  width: 350px;
+  width: 200px;
   height: 50px;
 }
 
