@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="25" viewBox="0 0 70 25">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <path fill="#FFF" stroke="#000" stroke-width="2" d="M1 1H1919V1079H1z" transform="translate(-1508 -30)"/>
+            <g fill="#FFF" stroke="#000" stroke-width="2">
+                <path d="M1 1H459.5V84H1z" transform="translate(-1508 -30) translate(1459.5)"/>
+            </g>
+            <text fill="#000" font-family="PoiretOne-Regular, Poiret One" font-size="30.3" transform="translate(-1508 -30)">
+                <tspan x="1507.428" y="54">CART</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

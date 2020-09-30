@@ -1,0 +1,42 @@
+.detail_main{
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+.detail_header{
+  flex: 1 1 85px;
+  padding-left: 84px;
+}
+.detail_header img{
+  position: relative;
+  left:45px;
+}
+.detail_content{
+  flex: 1 1 920px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.detail_header{
+  display: flex;
+}
+.header_shop{
+  flex: 2 1 900px;
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header_wish{
+  flex: 1 1 450px; 
+  border:1px solid black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header_cart{
+  flex: 1 1 450px;
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

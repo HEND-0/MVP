@@ -17,7 +17,7 @@
   height: 100vh;
   position: fixed;
   background-color: white;
-  transition: 0.5s;
+  transition: 0.08s;
 }
 .side_content{
   display: flex;
@@ -36,48 +36,60 @@
   margin-bottom: 6px;
   background-color: black;
 }
+.quick{
+  position: relative;
+  left: 30px;
+  height: 100vh;
+  transition: 0.5s;
+}
 .quick_menu{
   list-style-type: none;
-  margin-bottom: 500px;
 }
 .quick_menu li{
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   position: relative;
   border-bottom: 1px solid transparent;
 }
 .quick_home{
   width: 22px;
-  left: 30px;
 }
 .quick_order{
   width: 19px;
-  left:33px;
+  left:4px; 
 }
 .quick_shop{
   width: 28px;
-  left: 31px;
+  left: 1px;
 }
 .quick_mypage{
-  left:31px;
-  width: 28px;
+    left: 3px;
 }
 .categories{
+  top: 3px;
   display: none;
-  left: 20px;
+  position: relative;
+  left: 35px;
+  transition: 0.5s;
+}
+.side_categories li{
+  margin-bottom: 35px;
+}
+.side_categories a{
+  text-decoration: none;
+  color: black;
 }
 .side_categories{
   margin-bottom: 300px;
 }
-.side_categories li{
-  margin-bottom: 20px;
+.side_sign .login{
+  margin-bottom: 30px;
 }
 .menu_bar li:hover{
   border-bottom: 2px solid black;
 }
 .insta_icon{
   position: relative;
-  bottom: 34px;
-  left: 31px;
+  top: 400px;
 }
 li{
   list-style-type: none;
