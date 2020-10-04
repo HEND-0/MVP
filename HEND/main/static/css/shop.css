@@ -1,12 +1,13 @@
 
 .shop_main{
+  padding-left: 86px;
   display: flex;
   flex-flow: column;
   height: 100vh;
 }
 .shop_header{
   flex: 1 1 80px;
-  padding-left: 130px;
+  padding-left: 100px;
   padding-top: 30px;
 }
 .shop_container{
@@ -18,25 +19,25 @@
 .shop_item1{
   width: 50%;
   height: 50%;
-  background-image:  url('/static/img/04_1.png');
+  background-image:  url('/static/img/shop01.jpg');
   background-size: cover;
 }
 .shop_item2{
   width: 50%;
   height: 50%;
-  background-image:  url('/static/img/04_2.png');
+  background-image:  url('/static/img/shop02.jpg');
   background-size: cover;
 }
 .shop_item3{
   width: 50%;
   height: 50%;
-  background-image:  url('/static/img/04_3.png');
+  background-image:  url('/static/img/shop03.jpg');
   background-size: cover;
 }
 .shop_item4{
   width: 50%;
   height: 50%;
-  background-image:  url('/static/img/04_4.png');
+  background-image:  url('/static/img/shop04.jpg');
   background-size: cover;
 }
 a{
