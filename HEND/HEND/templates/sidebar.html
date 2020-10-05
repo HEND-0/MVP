@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  
+  <div class="main__content">
     <div class="sidebar">
       <div class="hamburg_bar">
         <div class="hamburg_ele hamburg_ele1"></div>
@@ -25,7 +25,8 @@
         <div class="hamburg_ele hamburg_ele3"></div>
       </div>
       <!-- 140000 -->
-      <div class="sidebar__main_logo"><a href="{% url 'home' %}"><img src="{% static 'img/logo-short.svg' %}" alt="logo"></a></div>
+      <div class="sidebar__main_logo"><a href="{% url 'home' %}"><img src="{% static 'img/logo-short.svg' %}"
+            alt="logo"></a></div>
       <div class="side_content">
         <div class="categories">
           <ul class="side_categories">
@@ -43,18 +44,20 @@
           <ul class="quick_menu">
             <li class="quick_home"><a href="{% url 'home' %}"><img src="{% static 'img/home.svg' %}" alt="home"></a></li>
             <li class="quick_order"><a href=""><img src="{% static 'img/create-order.svg' %}" alt="order"></a></li>
-            <li class="quick_shop"><a href="{% url 'shop' %}"><img src="{% static 'img/shopping-bag.svg' %}" alt="shop"></a></li>
+            <li class="quick_shop"><a href="{% url 'shop' %}"><img src="{% static 'img/shopping-bag.svg' %}" alt="shop"></a>
+            </li>
             <li class="quick_mypage"><a href=""><img src="{% static  'img/mypage.svg' %}" alt="mypage"></a></li>
           </ul>
           <span class="insta_icon"> <img src="{% static 'img/instagram.svg' %}" alt="instagram"></span>
         </div>
-        </div>
       </div>
-      
-      
-
+    </div>
+    
     {% block content %}
     {% endblock %}
+  </div>
+
+    
   <script src="{% static 'js/hamburg.js' %}"></script>
   
 </body>
