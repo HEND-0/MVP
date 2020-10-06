@@ -1,0 +1,84 @@
+{% extends 'sidebar.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  {% block content %}
+    <link rel="stylesheet" href="{% static 'css/mypage.css' %}" >
+    <div class="mypage_main">
+      <header class="mypage_header">
+        <div class="header_shop"><a href=" {% url 'shop' %}"><img src="{% static 'img/shop-text.svg' %}" alt=""></a></div>
+        <div class="header_wish"><img src="{% static 'img/wish.svg' %}" alt=""></div>
+        <div class="header_cart"><a href=""><img src="{% static 'img/cart.svg' %}" alt=""></a></div>
+      </header>
+      <div class="mypage_content">
+        <div class="client_info">
+          <div class="info_image">
+            <div class="img_btn">
+              <button class="register_btn"><p>+</p></button>
+              <span class="register">나의 명품 등록하기</span>
+            </div>
+          </div>
+          <div class="info_disc">
+            <div class="info_name">
+            <span>Woo Chang Wan</span> <br>
+            <span>hendler</span>
+            </div>
+            <div class="info_email">0000@naver.com</div>
+            <div class="info_number">010-0000-0000</div>
+            <div class="info_location">Seoul GeoungNeung</div>
+          </div>
+          <button class="modify_btn"><img src="{% static 'img/modify.svg' %}" alt=""></button>
+        </div>
+        <div class="repair_history">
+          <div class="repair_title">REPAIR HISTORY</div>
+          <ul class="repair_list">
+            <li class="repair_1">
+              <span class="repair_name">강남사</span>
+              <div class="reapair_rating">
+                <p>☆</p>
+              </div>
+              <div class="repair_location">
+                <p>146 Apgujeong-ro</p>
+              </div>
+              <button class="repair_goshop">GO SHOP</button>
+            </li>
+            <li class="repair_2">
+              <span class="repair_name">강남사</span>
+              <div class="reapair_rating">
+                <p>☆</p>
+              </div>
+              <div class="repair_location">
+                <p>146 Apgujeong-ro</p>
+              </div>
+              <button class="repair_goshop">GO SHOP</button>
+            </li>
+            <li class="repair_3">
+              <span class="repair_name">강남사</span>
+              <div class="reapair_rating">
+                <p>☆</p>
+              </div>
+              <div class="repair_location">
+                <p>146 Apgujeong-ro</p>
+              </div>
+              <button class="repair_goshop">GO SHOP</button>
+            </li>
+          </ul>
+          
+    
+        </div>
+        <div class="wish_list">
+          <div class="wish_1"></div>
+          <div class="wish_2"></div>
+        </div>
+        <div class="cart_list"></div>
+      </div>
+    </div>
+  {% endblock %}
+</body>
+</html>
