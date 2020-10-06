@@ -1,31 +1,39 @@
-
-.sidebar__main_logo{
-  position: absolute;
-  top: 115px;
-  width: 37px;
-  height: 48px;
-}
 .sidebar{
   display: flex;
   flex-direction: column;
   align-items: center;
   border-right:1px solid rgb(194, 186, 186);
-  width: 86px;
+  width: 273px;
+  left: -187px;
   height: 100vh;
   position: fixed;
   background-color: white;
-  transition: 0.08s;
+  transition: 0.3s;
+}
+.sidebar__main_logo{
+  position: absolute;
+  top: 110px;
+  left: 213px;
+}
+.categories{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  top: 240px;
+  width: 100%;
+  margin-bottom: 300px;
 }
 .side_content{
-  display: flex;
-  position: absolute;
-  top: 250px;
-  width: 100%;
+  position: relative;
+  left: 35px;
+  transition: 0.5s;
 }
 .hamburg_bar{
-  position: absolute;
+  position: fixed;
+  z-index: 100;
   top: 34px;
   left: 30px;
+  margin-bottom: 80px;
 }
 .hamburg_ele{
   width: 25px;
@@ -35,15 +43,15 @@
 }
 .quick{
   position: relative;
-  left: 30px;
-  height: 100vh;
+  right: 30px;
+  top: -3px;
   transition: 0.5s;
 }
 .quick_menu{
   list-style-type: none;
 }
 .quick_menu li{
-  margin-bottom: 32px;
+  margin-bottom: 27px;
   position: relative;
   border-bottom: 1px solid transparent;
 }
@@ -61,22 +69,15 @@
 .quick_mypage{
     left: 3px;
 }
-.categories{
-  top: 3px;
-  display: none;
-  position: relative;
-  left: 35px;
-  transition: 0.5s;
-}
 .side_categories li{
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 .side_categories a{
   text-decoration: none;
   color: black;
 }
-.side_categories{
-  margin-bottom: 300px;
+.side_sign{
+  margin-top:200px ;
 }
 .side_sign .login{
   margin-bottom: 30px;
@@ -86,7 +87,7 @@
 }
 .insta_icon{
   position: relative;
-  top: 400px;
+  top: 420px;
 }
 li{
   list-style-type: none;

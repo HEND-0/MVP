@@ -1,0 +1,110 @@
+.mypage_main{
+  display: grid;
+  grid-template-rows: 85px 1fr; 
+  margin-left: 85px;
+}
+.mypage_header{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.header_shop{
+  border: 1px solid black;
+  padding-left: 45px;
+  display: flex;
+  align-items: center;
+}
+.header_wish{
+  border:1px solid black;
+  padding-left: 45px;
+  display: flex;
+  align-items: center;
+}
+.header_cart{
+  border: 1px solid black;
+  padding-left: 45px;
+  display: flex;
+  align-items: center;
+}
+.mypage_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 1000px;
+}
+.client_info{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
+}
+.repair_history{
+  border: 1px solid black;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 85px 1fr;
+}
+.wish_list{
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.cart_list{
+  border: 1px solid black;
+}
+.info_disc{
+  margin-bottom: 135px;
+}
+.info_image{
+  display: grid;
+  margin-top:30px ;
+  margin-bottom: 30px;
+  width: 380px;
+  height:380px;
+  border: 1px solid black;
+}
+.img_btn{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register_btn{
+  border-radius: 50%;
+  width: 1vw;
+  height: 1vw;
+  background-color: white;
+}
+.info_name{
+  margin-bottom: 25px;
+}
+.modify_btn{
+  width: 380px;
+  height: 60px;
+  background-color: white;
+}
+.repair_title{
+  width: 100%;
+  padding-left: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.repair_list{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+.repair_list li{
+  border-bottom: 1px solid black;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.repair_goshop{
+  background-color: white;
+  width: 190px;
+  height: 50px;
+}
+.wish_1{
+  border-bottom: 1px solid black;
+}

@@ -7,14 +7,14 @@ const categories= document.querySelector(".categories");
 const quick=document.querySelector(".quick");
 
 hamburg_bar.addEventListener("click", ()=>{
-  if(sidebar.style.width==="" || sidebar.style.width==="86px"){
-    sidebar.style.width = "273px";
-    categories.style.display ='block';
-    quick.style.left= "100px";
+  if( sidebar.style.left==="0px"){
+    sidebar.style.left="-187px";
+    // categories.style.display ='block';
+    // quick.style.left= "100px";
   }else{
-    sidebar.style.width= "86px";
-    categories.style.display= 'none';
-    quick.style.left= "30px";
+    sidebar.style.left= "0px";
+    // categories.style.display= 'none';
+    // quick.style.left= "30px";
   }
 })
 

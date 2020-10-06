@@ -3,7 +3,7 @@
         <g>
             <path fill="#FFF" stroke="#000" stroke-width="2" d="M1 1H1919V1079H1z" transform="translate(-1048 -30)"/>
             <g fill="#FFF" stroke="#000" stroke-width="2">
-                <path d="M1 1H459.5V84H1z" transform="translate(-1048 -30) translate(1001)"/>
+                <path d="M1 1H459.5V84H1z" transform="translate(-1048 -30) translate(1001.5)"/>
             </g>
             <text fill="#000" font-family="PoiretOne-Regular, Poiret One" font-size="30.3" transform="translate(-1048 -30)">
                 <tspan x="1048.322" y="54">WISH</tspan>
