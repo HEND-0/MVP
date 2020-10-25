@@ -36,8 +36,8 @@
             <li><a href=""><img src="{% static 'img/mypage-text.svg' %}" alt="mypage-text"> </a></li>
           </ul>
           <ul class="side_sign">
-            <li class="login"><a href=""><img src="{% static 'img/text-login.svg' %}" alt=""></a></li>
-            <li class="signin"><a href=""><img src="{% static 'img/text-signin.svg' %}" alt=""></a></li>
+            <li class="login"><a href="{% url 'login'%}"><img src="{% static 'img/text-login.svg' %}" alt=""></a></li>
+            <li class="signin"><a href="{% url 'signin'%}"><img src="{% static 'img/text-signin.svg' %}" alt=""></a></li>
           </ul>
         </div>
         <div class="quick">
